@@ -1,24 +1,44 @@
 ---
 layout: default
+title: Vincent Trivett | Full Stack Developer and Code Mentor
 ---
 
 <div class="header-bar">
-  <h1>*folio</h1>
-  <h2>simple whitespace theme</h2>
+  <h1>Vincent Trivett</h1>
+  <h2>Full stack web developer and technology educator</h2>
   <br/>
   <hr>
   <br/>
 </div>
 
+<div class="post-content">
+  <p>
+    I am a full stack web developer, former journalist, and lifelong learner. I currently work for <a href="https://www.studyabroadapartments.com">Study Abroad Apartments</a>, where I am the sole engineer helping students find suitable accomodations in Europe.
+  </p>
+  <p>
+    I also mentor graduates and teach junior web developers at <a href="https://generalassemb.ly">General Assembly</a>, where I also honed my craft some years ago. If you are a graduate of GA or you are interested in starting to learn to code, I would love to have you in my class. Please get in touch if you would like to attend my next class.
+  </p>
+  <p>
+    I am based in the Greenpoint neighborhood of Brooklyn, NY, where I live with a sweet Siberian cat named Frances and I get around via a fixed gear bicycle because I am unbelievably typical.
+  </p>
+  <p>
+    I am constantly studying and learning more stuff, especially anything related to technology, language, and history. Currently, I am taking Spanish classes at Fluent City in Williamsburg, while also keeping up to date with web technology.
+  </p>
+  <br/>
+  <hr>
+  <br/>
+  <p class="center">
+        Find me on the web
+      </p>
+      <span class="contacticon center">
+        <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square"></i></a>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/vtrivett" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://www.flickr.com/photos/scrolling_up_and_down/" target="_blank"><i class="fa fa-flickr"></i></a>
+        <a href="https://twitter.com/{{ site.twitter_username }} " target="_blank"><i class="fa fa-twitter-square"></i></a>
+      </span>
 
-<ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
-        <hr/>
-      </li>
-    {% endfor %}
-</ul>
+</div>
+<br/>
+<hr>
+
