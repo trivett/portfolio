@@ -14,13 +14,13 @@ I currently work at a small startup called Study Abroad apartments, a small star
 
 Currently, I am teaching myself best practices for breaking up the company's monolithic Rails app into microservices and hosting on Amazon Web Services. I'm also having a blast learning React JS, which is the first technology to give me the same sense of wonder as Rails.
 
-For just over two years, I had the honor of working for <a href="https://2u.com">2U</a>, a leading education technology company. At 2U, I got some great experience working with a huge team of top notch developers using Python and PHP.
+Before my current role, I had the honor to be a part of <a href="https://2u.com">2U</a>, a leading education technology company, for just over two years. At 2U, I got some great experience working with a huge team of top notch developers using Python and PHP, among other things.
 
 Before that, I went through the crucible of General Assembly's Web Development Immersive program, where I spent three months learning and practicing front and back end web development.
 
-I've enjoyed a number of careers before I became a professional web developer. At university, I majored in English and really enjoyed tutoring students for their writing classes. I found more work teaching in New York and then decided to move to Japan to teach English and learn Japanese myself. While I was there I had a fortuitous encounter with Ry Beville, who went on to become a business partner and a friend.
+I've enjoyed a number of careers before I became a professional web developer. I was a freelance business journalist, a Japanese to English translator, an arts and culture reporter, photographer, and translator in Yokohama while teaching in the city's public schools, and thats only the non service jobs I've worked.
 
-In Yokohama, I stated to
+When not in front of a screen, I like to take nice long bike rides, read history, graphic novels, and sometimes both. Please drop me a line to get in touch!
 
 <br/>
 <hr/>
