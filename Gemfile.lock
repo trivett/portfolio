@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     addressable (2.4.0)
     colorator (1.1.0)
@@ -46,4 +47,4 @@ DEPENDENCIES
   kramdown
 
 BUNDLED WITH
-   1.13.5
+   1.13.6
