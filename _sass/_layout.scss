@@ -142,6 +142,8 @@ font-size: 36px;
 .post-content {
 h2 {
 font-size: 42px;
+margin-bottom: 25px;
+
 @include media-query($on-laptop) {
 font-size: 28px;
         }
