@@ -56,11 +56,12 @@ The first command gives us the `User` model and table with screenname and email 
 
 **app/models/user.rb**
 
-```
+{% highlight ruby %}
+
 class User < ActiveRecord::Base
   has_many :messages
 end
-```
+{% endhighlight %}
 
 Now, since we created new database migrations, we have to execute them so our changes are reflected in the database:
 
