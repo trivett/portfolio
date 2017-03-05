@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko|Lusitana');
 /**
  * Reset some basic elements
  */
@@ -11,8 +12,8 @@ dl, dd, ol, ul, figure {
 
 
 /** Variables **********************************************/
-$base-font-family:              Lato, sans-serif;
-$base-line-height:              1.5em;
+$base-font-family:              Lusitana, serif;
+$base-line-height:              1.7em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
 $nav-height:                    56px;
@@ -114,6 +115,8 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 200;
+    font-family: Amiko, Lato, sans-serif;
+
 }
 
 
