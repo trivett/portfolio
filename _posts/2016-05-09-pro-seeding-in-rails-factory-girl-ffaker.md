@@ -65,13 +65,15 @@ end
 
 Now, since we created new database migrations, we have to execute them so our changes are reflected in the database:
 
-```
+{% highlight bash %}
 $ rake db:migrate
-```
+
+{% endhighlight %}
+
 
 You should see output along these lines:
 
-```
+{% highlight bash %}
 $ rake db:migrate
 == 20160509232809 CreateUsers: migrating ======================================
 -- create_table(:users)
@@ -82,15 +84,17 @@ $ rake db:migrate
 -- create_table(:messages)
    -> 0.0214s
 == 20160509232816 CreateMessages: migrated (0.0215s) ==========================
-```
+{% endhighlight %}
+
 
 Let's test out the setup of these models in the Rails console to make sure the relationship is right. First open the console with `$ rails console` or `$ rails c` for short. Your prompt will change to a `>` and you can enter data directly.
 
-```
+{% highlight ruby %}
 > u = User.create(screenname: "motherofdragons16", email: "dtargaryen@hotmail.com")
 
 > m = u.messages.create(body: "burnin it up today!")
-```
+{% endhighlight %}
+
 
 If this works, it proves that we can create users, and that those users have a collection of messages. We are ready to continue.
 
@@ -107,24 +111,30 @@ First, we need to declare this dependency in the `Gemfile`. Be sure to place thi
 
 **Gemfile**
 
-```
+
+{% highlight ruby %}
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'factory_girl_rails'
   gem 'ffaker'
 end
-```
+{% endhighlight %}
+
+
 
 As always, to use these gems, we have to install with bundler:
 
-```
+{% highlight bash %}
+
 $ bundle install
-```
+{% endhighlight %}
+
 
 Now we have access to `factory_girl_rails` and `ffaker` throughout the application. Without any further configuration, we can see the value of FFaker in real time in the console. Let's demonstrate with the `Company` module of the library. You can peruse the [complete FFaker reference](https://github.com/ffaker/ffaker/blob/master/REFERENCE.md) on GitHub for more ideas that might fit your app better.
 
-```
+{% highlight ruby %}
+
 $ rails c
 > FFaker::Company.name
 => "Keebler and Sons"
@@ -132,7 +142,7 @@ $ rails c
 => "General Secretary"
 > FFaker::Company.catch_phrase
 => "Switchable clear-thinking firmware"
-```
+{% endhighlight %}
 
 In this context, both `FFaker` and `FFaker::Company` are modules, and `.name` is a method within `FFaker::Company`. It returns a string of a somewhat believable random company name from the library. As with all open source software, you can see the [source code](https://github.com/ffaker/ffaker/blob/master/lib/ffaker/company.rb) of the gem to see how it works.
 
@@ -141,26 +151,28 @@ Now let's use some fake data from FFaker in conjunction with Factory Girl. The f
 
 **test/factories/user.rb**
 
-```
+{% highlight ruby %}
 FactoryGirl.define do
   factory :user do
     screenname { FFaker::Internet.user_name }
     email { FFaker::Internet.email }
   end
 end
-```
+{% endhighlight %}
+
 
 This factory corresponds well to the `User` Active Record model. The screenname and email attributes will be filled with a random string from the [FFaker::Internet module](https://github.com/ffaker/ffaker/blob/master/REFERENCE.md#ffakerinternet).
 
 Factory Girl gives you an intutive interface for cranking data out of the user factory you just built. Again, we can try it out in the console:
 
-```
+{% highlight ruby %}
 $ rails c
 > FactoryGirl.create(:user)
 ### This makes one new user
 > FactoryGirl.create_list(:user, 10)
 ### This makes 10 new users with one line of code!
-```
+{% endhighlight %}
+
 
 These are just two methods that FactoryGirl comes with. You can find a more complete catalog of its capabilities on the project's [GitHub repo](https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md) or in the [official documentation](http://www.rubydoc.info/gems/factory_girl_rails).
 
@@ -176,7 +188,7 @@ With those two gems, you can use a loop to make as many unique objects you want.
 
 **db/seeds.rb**
 
-```
+{% highlight ruby %}
 FactoryGirl.create_list(:user, 20)
 
 User.all.each do |user|
@@ -184,9 +196,7 @@ User.all.each do |user|
     user.messages.create(body: FFaker::HipsterIpsum.phrase)
   end
 end
-
-```
-
+{% endhighlight %}
 The first line creates ten users with the user factory you defined earlier. The following code loops over all of the users and creates ten messages to belong to each one. The messages are nonsense generated from the [FFaker HipsterIpsum](https://github.com/ffaker/ffaker/blob/master/REFERENCE.md#ffakerhipsteripsum) module. Run `rake db:seed` and boom!
 
 With six lines of code you have hundreds of rows in your database, all real-seeming and unique. If you want more data, you can just run `rake db:seed` again or increase the number of users or messages you create for each.
