@@ -22,19 +22,15 @@ My curriculum vitae in reverse chronological order:
 
 _July 2016 - Present_
 
+In my current role, I develop and manage an online booking platform for students seeking housing abroad.
 
-
-
-
-Developed an online booking platform for students seeking housing abroad.
-
-I worked on every level of the stack, including feature inception, design, implementation, automated testing, QA, deployment, and support for non-technical managers and admins.
+I work on every level of the stack, including feature inception, design, implementation, automated testing, QA, deployment, and support for non-technical managers and admins.
 
 Integrated the product with third-party services and APIs managed by hosing providers and management companies. I was often called upon to deal directly with business contacts in multiple countries.
 
 After about seven months of working solo, I brought on an apprentice developer, a recent bootcamp graduate. Transitioning from working in isolation to managing a team required organization and codified process. I instituted agile processes, strict guidelines for code review, dedicated time to refactor and improve test suites, and deployment planning for large releases. 
 
-Re-worked legacy code and infrastructure inherited from an offshort dev shop. Some of my earliest priorities were to create an SSL Certificate to serve the site securely and begin backing up business-critical data and assets.  The former was achieved with Let's Encrypt. 
+Part of my job involves re-working legacy code and infrastructure inherited from an offshore dev shop. Some of my earliest priorities were to create an SSL Certificate to serve the site securely and begin backing up business-critical data and assets. The former was achieved with Let's Encrypt. 
 
 I took it upon myself to leverage third-party tools for monitoring, continuous integration, logging, and exception reporting.
 
@@ -42,25 +38,7 @@ The codebase that we inherited used some very strange processes and technology c
 
 Currently working on transitioning from a monolithic Rails app to API-driven microservices that can power multiple sites to serve different markets.
 
-Technologies and tools used:
-
-* Ruby on Rails
-* PostgreSQL
-* Heroku
-* Angular JS 1.5
-* ES6
-* Object Oriented JavaScript
-* Git and Github (of course)
-* Hubspot CRM
-* Zendesk
-* Scout APM
-* New Relic
-* HoneyBadger
-* Codeship
-* Amazon S3
-* Nokogiri and Mechanize for web scraping
-* NodeJS 
-
+Technologies and tools used: Ruby on Rails, PostgreSQL, Heroku, Angular JS 1.5, ES6, Object Oriented JavaScript, Git and Github (of course), Scout APM, New Relic, HoneyBadger, Codeship, Amazon S3, Cloudflare DNS, Let's Encrypt,  Hubspot CRM, Zendesk, Nokogiri and Mechanize for web scraping, and Ubuntu as my desktop operating system.
 
 
 ## General Assembly — Instructor / Mentor
@@ -103,9 +81,14 @@ At 2U, I was exposed to Python, PHP, Flask, NodeJS, CoffeeScript, Pyramid, Cloju
 
 Both before and after graduating from CUNY, I worked for various outlets as a freelance journalist and translator. Some highlights of my former career:
 
-* ​
+* **Reporter and translator for Bright Wave Media**: While living in Japan, I played a part in starting a few magazines with a friend and colleague. I reported on arts and culture in Yokohama, inteviewed subjects in Japanese, translated Japanese copy into English, took photos, and assisted with layout, advertising sales, and packaging magazines for distribution. With a small team of friends, we created _Yokohama Seasider_, _Koe_, and the _Japan Beer Times_. I am proud to have played a role in the creation of this company early on. Though it ultimately ended up not working out for me, this experience inspired me to start a career in journalism.
 * **Trends reporter for Skift**: I produce in-depth bi-monthly industry reports on trends in travel. This work entailed scoring and conducting interviews, sometimes with C-level executives, writing about 20+ pages of content, fact checking, editing, and creating graphs to present data. 
-* **Intern at Business Insider**: I worked 
+* **Intern at Business Insider**: I conceived and wrote stories for an enormous online audience, focusing on economic and financial news.
+* **Freelance translator for Nippon TV**: On a few occasions, I worked as a guest translator for the New York branch of Nippon TV (aka Nittere or Nichi Terebi). I took stories by Japanese reporters, translated into broadcast-friendly English for distribution by NBC Universal.
+* **"A small percentage": my capstone project in interactive journalism**: I spent a year delving into the business of financial remittances by migrant workers to their home countries. What I discovered was a level of quietly tolerated exploitation that few people put have occasion to think about. With few options and almost no transparency, some of the most marginalized workers in the United States pay far more than necessary to remit money to their families. That small percentage fee that they pay, coupled with inflated exchagne rates adds up. It comes out of small paychecks, and when it arrives, it means that there is less money to pay for food, children's education etc. The companies that provide this service make a mint in profits, at least those that provide numbers. Now that I am not a journalist, I can say drop the veneer of 'objectivity' and say what a bullshit situation that is. I have no problem with a company charging for a necessary service, but this one is just particularly rapacious. I interviewed activists, startup entrepreneurs hoping to disrupt the industry, migrant workers, and internationall recognized economists to produce an interactive package on this opaque industry that most of us never have to come into contact with. I used WordPress, and animations to show data and reporting that I gathered. After I put it on the web, part of it was run by City Limits magazine. 
+* My work has also appeared in Quartz, WNYC, and other outlets.
 
+## Ancient history
 
+Before going to graduate school, I was an English teacher in the public schools of Yokohama, Japan.
 
