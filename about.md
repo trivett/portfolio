@@ -10,11 +10,11 @@ permalink: /about/
 
 I am a full stack dev with experience in every realm of web development from devops to design. My favorite stack is with Ruby on Rails, which I have been using for over four years. I also have some experience with Python and Node.js but Rails is my go-to for getting things done. It is also my favorite topic to teach students.
 
-I currently work at a small startup called Study Abroad apartments, a small startup where I am the only technical employee. I take care of implementing new features and maintaining the product.
+I currently work as a contractor at Google, where I am learning so much and having a lot of fun. I am mostly handling front end development in Angular JS for the Local Guides community. 
 
-Currently, I am teaching myself best practices for breaking up the company's monolithic Rails app into microservices and hosting on Amazon Web Services. I'm also having a blast learning React JS, which is the first technology to give me the same sense of wonder as Rails.
+Before my current role, I worked at a small startup called Study Abroad Apartments, where I was the only technical employee for quite some time. I took care of implementing new features and maintaining all aspects of the product. I also had the pleasure of training and mentoring a fresh junior developer. 
 
-Before my current role, I had the honor to be a part of <a href="https://2u.com">2U</a>, a leading education technology company, for just over two years. At 2U, I got some great experience working with a huge team of top notch developers using Python and PHP, among other things.
+Prior to that, I had the honor to be a part of <a href="https://2u.com">2U</a>, a leading education technology company, for just over two years. At 2U, I got some great experience working with a huge team of top notch developers using Python and PHP, among other things.
 
 Before that, I went through the crucible of General Assembly's Web Development Immersive program, where I spent three months learning and practicing front and back end web development.
 
